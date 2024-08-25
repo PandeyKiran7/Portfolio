@@ -13,8 +13,8 @@
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skill</a></li>
-          <li><a href="#project">Project</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -31,14 +31,14 @@
 
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#skills" onclick="toggleMenu()">Skill</a></li>
-          <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
 
-    <!-- Section -->
+    <!--  Profile Section -->
 
     <section id="profile">
       <div class="section_pic-container">
@@ -81,6 +81,297 @@
       </div>
     </section>
 
-    <script src="scripts.js"></script>
+    <!-- ABOUT SECTION  -->
+    <section id="about">
+      <p class="section_text_p1">Get to Know More</p>
+      <h1 class="title">About Me</h1>
+
+      <div class="section-container">
+        <div class="section_pic-container">
+          <img
+            src="aboutProfile.jpg"
+            alt="Profile picture"
+            class="about-pic"
+            style="border-radius: 10px; height: 300px; width: 300px"
+          />
+        </div>
+        <div class="about-details-containers">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="skills.png" alt="Skills" class="icon" />
+              <h3>Skills</h3>
+              <p>
+                React.js <br />
+                JavaScript <br />
+                Tailwind CSS
+              </p>
+              <p>
+                Time-Management <br />
+                Team Work<br />
+                Leadership
+              </p>
+            </div>
+
+            <div class="details-container">
+              <img src="education.png" alt="Education" class="icon" />
+              <h3>Education</h3>
+              <p>
+                BSc.IT 3rd Sem <br />
+                +12 Computer Science
+              </p>
+            </div>
+          </div>
+
+          <div class="text-container">
+            <p>
+              I am currently studying for a Bachelor of Science in Information
+              Technology (BSc IT) and am in my second semester. I graduated from
+              Bridgewater Int. secondary school with a focus on science where my
+              major is computer science.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='.#skills' ">
+    </section>
+
+    
+
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+
+            <div class="article-container">
+              <article>
+                <img
+                  src="complete.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="complete.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            
+              <article>
+                <img
+                  src="complete.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              
+            </div>
+
+          </div>
+
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+
+              <article>
+                <img
+                  src="complete.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="complete.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tailwind CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="complete.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="complete.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+    <!-- Project Section -->
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="projectOne.png"
+                alt="Project 1"
+                class="project-img" style="height: 150px; width: 130px;"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/PandeyKiran7/CalculatorByUsingJS-HTML-CSS'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://extraordinary-chebakia-50b33e.netlify.app'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="projectTwo.png"
+                alt="Project 2"
+                class="project-img" 
+              />
+            </div>
+            
+            <h2 class="experience-sub-title project-title"">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/PandeyKiran7/CodeEditor'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://sunny-naiad-1c3a97.netlify.app'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="project.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/PandeyKiran7/myFirstWeb-page'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://remarkable-shortbread-c0fd76.netlify.app'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="https://mail.google.com">kiranmmm138@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="linkedIn.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/kiran-pandey22/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
